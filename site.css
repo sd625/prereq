@@ -1,0 +1,284 @@
+html {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: .25px;
+  line-height: normal;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+table {
+  width: 80%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(33, 28, 16)
+}
+
+a:hover {
+  color: #2d4a4b;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2)
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 15px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 180px;
+  height: 210px;
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.feedback {
+  color: red;
+  font-weight: bold;
+}
+
+.gallery-list {
+  margin: 10px;
+  border: 3px solid rgb(200, 194, 194);
+  float: left;
+  width: 180px;
+}
+
+.gallery-list:hover {
+  border: 3px solid rgb(33, 28, 16);
+
+}
+
+.form-label {
+  padding: 15px;
+}
+
+.sort {
+  padding-bottom: 1%;
+}
+
+.detail_img {
+  height: 500px;
+  width: 500px;
+}
+
+.title {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.header_img {
+  width: 80pc;
+  height: 17pc;
+}
+
+.header_title {
+  background-color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header_nav {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header_li {
+  background-color: white;
+  height: 20pt;
+  cursor: pointer;
+}
+
+.filter_by {
+  border: solid 2pt black;
+  width: 200pt;
+  font-weight: bold;
+  font-size: 15pt;
+
+}
+
+.filter {
+  margin-left: 3%;
+}
+
+.tag_group {
+  padding: 5.1%;
+  margin-left: 1%;
+  margin-right: 10%;
+}
+
+.tag,
+.tag_img,
+.tag_link {
+  margin-top: 10%;
+}
+
+
+.tag_img {
+  width: 80px;
+  height: 80px;
+  margin-left: 3%
+}
+
+.tag_link {
+  margin-left: 7%;
+  cursor: pointer;
+}
+
+.gallery {
+  padding-top: 1%;
+  padding-left: 5%;
+}
+
+.sort_by {
+  margin: 4pt;
+}
+
+.label-input {
+  margin: 1%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  /* Source: https://freefrontend.com/css-buttons/ */
+  align-items: center;
+  margin: 2%;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+
+form {
+  /* Source: https://freefrontend.com/css-forms/ */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  height: 500px;
+}
