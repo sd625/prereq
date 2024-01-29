@@ -1,0 +1,43 @@
+{
+    "breadcrumbs.enabled": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.showSlider": "always",
+    "editor.stickyScroll.enabled": true,
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "gutterpreview.showImagePreviewOnGutter": false,
+    "intelephense.environment.phpVersion": "8.0.0",
+    "debug.console.collapseIdenticalLines": false,
+    "php.validate.enable": true,
+    "intelephense.diagnostics.enable": true,
+    "debug.console.wordWrap": true,
+    "markdownlint.config": {
+        "MD012": false,
+        "MD013": false,
+        "MD022": false,
+        "MD025": false,
+        "MD033": false,
+        "MD036": false,
+        "MD037": false,
+        "MD040": false
+    },
+    "webvalidator.showPopup": false,
+    "webvalidator.validateOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.internalConsoleOptions": "openOnSessionStart"
+}
